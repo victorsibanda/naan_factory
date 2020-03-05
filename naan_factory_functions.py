@@ -1,23 +1,17 @@
-#Functions here
+# Functions Here
+
+from run_naan_factory import *
 
 
-from run_naan_fatcory import *
-#1
-# As a user, I can use the make_dough with water and wheat to make dough.
-
-
-def make_dough(ar1,ar2):
+def make_dough(arg1, arg2) :
+    #if argument is water and argument 2 is flour
+        #return dough
+    #else return
+        #not dough
     return 'dough'
 
+def bake_dough(arg1) :
+    return 'naan'
 
-
-#if arg 1 is water an arg 2 is flour
-#return dough
-#else return not dough 
-
-
-
-
-
-# def test_example:
-#     return '(text example')
+def run_factory(arg1, arg2) :
+    return 'naan'
