@@ -3,4 +3,6 @@
 
 from naan_factory_functions import *
 
-test_example()
+print(make_dough ('water' and 'flour') == 'dough')
+
+
